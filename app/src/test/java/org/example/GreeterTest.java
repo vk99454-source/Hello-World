@@ -7,6 +7,5 @@ class GreeterTest {
   @Test
   void itHasAGreeting() {
     HelloWorld helloWorld = new HelloWorld();
-    assertEquals("Hello World!", helloWorld.getGreeting());
-  }
+    assertEquals("Hello World!", helloWorld.getGreeting()); }
 }
